@@ -1,0 +1,24 @@
+块ㄤΑ
+n
+v1凙v2凙凙vn
+w1凙w2凙凙wn
+W
+ㄤいnタ俱计v1,,vnnだフ跋筳凙ぇタ俱计w1,,wnnだフ跋筳ぇタ俱计
+(vi,wi)材iitemぇ基籔秖ㄢАタ俱计Wタ俱计璉┮┯更ぇ秖
+块璉┮┯更ぇ珇ぇ羆基籔笷程羆基ぇ兜ヘ块Α
+T
+q
+(i1,i2,,iq)
+ㄤいT程羆基q笷程羆基ぇ兜ヘ羆计τ(i1,i2,,iq)兜ヘ(パ逼)
+块絛ㄒ
+Input
+4
+20 30 50 10
+2 5 10 5
+16
+Output
+80
+2
+(2,3)
+干弧
+3. 把计ぇ絛瞅n<=100籔W<=1000, vi,wi<=100
