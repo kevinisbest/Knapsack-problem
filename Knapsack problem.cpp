@@ -48,8 +48,11 @@ int main()
 	
 	int n,W;
 	cin>>n;
-	int value[100]={0},weight[100] = {0};//基 秖 
-	if (n<=100)
+//	if(n=0)cout<<"0";
+//	
+	int value[100]={0};//基 
+	int weight[100]={0};//秖 
+	if (n>0&&n<=100)
 	{
 		for (int i=1;i<= n;i++)	
 		{
@@ -60,11 +63,20 @@ int main()
 			cin >> weight[i];
 		}
 		cin>>W;
-		if (W <= 1000)
-		{
+		if (W>0&&W <= 1000)
 			knapsack(n,W,value,weight);
-		}
+		
+		else if(n==0)
+			cout<<"0"<<endl<<"0"<<endl<<"(0,0)"<<endl;
+		
+		else
+			cout<<"把计ぇ絛瞅n<=100籔W<=1000,vi,wi<=100"<<endl;
 	}
+	else if(n==0)
+		cout<<"0"<<endl<<"0"<<endl<<"(0,0)"<<endl;
+	
+	else
+		cout<<"把计ぇ絛瞅n<=100籔W<=1000,vi,wi<=100"<<endl;
 	system("pause");
 	return 0;
 	
